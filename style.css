@@ -1,0 +1,334 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+	/* background-color: yellow; */
+}
+
+.header {
+	margin: 1em .5em;
+	/* width: 95vw; */
+	height: 30px;
+	/* position: fixed; */
+	/* background-color: rgb(212, 101, 226); */
+	display: flex;
+	/* display: inline-block; */
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+}
+
+.header h1 {
+	font-size: 5vmin;
+	font-weight: bolder;
+	margin: 15px;
+}
+
+.header ul {
+	background-color: yellow;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.header ul li {
+	/* text-align: center; */
+	display: inline-block;
+	margin: 10px;
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.header ul li a:hover {
+	color: white;
+	/* font-weight: bold; */
+	border-bottom: 2px solid salmon;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+}
+
+.container {
+	width: 70vw;
+	height: 80vh;
+	margin: auto;
+	display: flex;
+	/* background-color: yellow; */
+}
+
+.left {
+	flex: 2;
+	margin: auto;
+	/* background-color: rgba(0, 0, 0, 0.479); */
+}
+
+.left h1 {
+	font-size: 20px;
+}
+
+.left .as {
+	font-size: 40px;
+	color: purple;
+	font-weight: bolder;
+}
+
+.left p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.right {
+	flex: 4;
+	/* background-color: darkslategrey; */
+	background-image: url(WhatsApp\ Image\ 2021-11-04\ at\ 10.49.57\ \(9\).jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.tntng {
+	width: 200px;
+	border-top: 2px solid black;
+	border-bottom: 2px dotted black;
+	text-align: center;
+	font-size: 2rem;
+	margin: 2em auto;
+	font-weight: bold;
+	/*background-color: purple;
+	*/color: black;
+	padding: 2px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.about {
+	/* background-color: yellow	; */
+	width: 90vw;
+	height: 70vh;
+	margin: 5em auto;
+	display: flex;
+	/* box-sizing: border-box; */
+}
+
+.pic {
+	flex: 2;
+	background-image: url(WhatsApp\ Image\ 2021-11-04\ at\ 10.49.57\ \(9\).jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.txt {
+	flex: 3;
+	/* background-color: grey; */
+	display: flex;
+	/* animation-name: border; */
+	animation-duration: 6s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes border {
+	0% {border-top: 2px solid yellow;}
+	50% {border-right: 2px solid yellow;}
+	100% {border-bottom: 2px solid yellow;}
+	/* 75% {border-top: 2px solid yellow;}
+	100% {border-top: 2px solid yellow;} */
+}
+
+.text {
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.text h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	margin: 20px;
+}
+
+.text p {
+	margin: 20px;
+}
+
+.up-to {
+	height: 90vh;
+}
+
+.eyes {
+	/* margin: auto; */
+	height: 45vh;
+	background-color: yellow;
+	background-image: url(BCK.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.mouth {
+	height: 45vh;
+	background-color: purple;
+	background-image: url(BCK2.jpg);
+	/* background-attachment: fixed; */
+	background-size: cover;
+	background-position: center;
+}
+
+.me {
+	width: 200px;
+	border-top: 2px solid black;
+	border-bottom: 2px dotted black;
+	text-align: center;
+	font-size: 2rem;
+	margin: 2em auto;
+	font-weight: bold;
+	/*background-color: purple;
+	*/color: black;
+	padding: 2px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.work {
+	margin: 5em 0;
+	height: auto;
+	/* background-color: rgba(128, 0, 128, 0.37); */
+	/* display: flex; */
+}
+
+.slider {
+	/* background-color: palegreen; */
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), yellow);
+	margin: auto;
+	/* text-align: center; */
+	width: 80vw;
+	height: auto;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	display: flex;
+	/* align-items: center; */
+	/* gap: 5em; */
+	box-sizing: border-box;
+}
+
+.slider img {
+	background-color: white;
+	/* width: 300px; */
+	height: 400px;
+}
+
+.slider div {
+	margin: 0 1.5em;
+	height: 460px;
+	background-color: greenyellow;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.slider h1 {
+	margin: .5em;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 650px) {
+	.header {
+		/* background-color: blue; */
+		height: 10vh;
+	}
+
+	.container {
+		display: block;
+		height: 70vh;
+		width: 100vw;
+		position: relative;
+	}
+
+	.left {
+		border: 3px solid black;
+		background-color: rgba(255, 255, 255, 0.445);
+		width: 70vw;
+		height: auto;
+		position: absolute;
+		margin-top: 3em;
+		margin-left: 1em;
+		padding: 8px;
+	}
+
+	/* .left .as {
+		color: yellow;
+	} */
+
+	.right {
+		float: right;
+		width: 80vw;
+		height: 60vh;
+		box-shadow: -15px 15px black;
+	}
+
+	.about {
+		display: block;
+		height: auto;
+	}
+
+	.pic {
+		height: 60vh;
+	}
+}
