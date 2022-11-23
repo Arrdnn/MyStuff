@@ -52,6 +52,7 @@ div {
 
 .combine {
 	height: 100vh;
+	/* background-color: yellow; */
 }
 
 .header {
@@ -106,16 +107,22 @@ div {
 }
 
 .eyes {
-	height: 100vh;
+	height: 70vh;
 	/* margin: auto; */
 	/* background-color: yellow; */
-	text-align: center;
-	/* display: flex; */
+	display: flex;
 	box-sizing: border-box;
 }
 
-.eyes img {
-	margin-top: 5em;
+.mid {
+	/* background-color: white; */
+	text-align: center;
+	width: auto;
+	margin: auto;
+}
+
+.mid img {
+	/* margin: auto; */
 	width: 90vmin;
 }
 
