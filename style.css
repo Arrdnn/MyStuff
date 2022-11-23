@@ -206,7 +206,7 @@ div {
 }
 
 .up-to {
-	height: 80vh;
+	height: 90vh;
 }
 
 .eyes {
@@ -221,7 +221,7 @@ div {
 }
 
 .mouth {
-	height: 30vh;
+	height: 45vh;
 	background-color: purple;
 	background-image: url(BCK2.jpg);
 	/* background-attachment: fixed; */
