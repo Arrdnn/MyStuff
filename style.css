@@ -77,11 +77,11 @@ div {
 
 .header ul {
 	background-color: yellow;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
+	border-radius: 10px 0 10px 10px;
+	-webkit-border-radius: 10px 0 10px 10px;
+	-moz-border-radius: 10px 0 10px 10px;
+	-ms-border-radius: 10px 0 10px 10px;
+	-o-border-radius: 10px 0 10px 10px;
 }
 
 .header ul li {
