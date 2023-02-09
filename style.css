@@ -356,6 +356,8 @@ p, a {
 
 	.mid .e {
 		font-size: 1em;
+		width: 75vw;
+		margin: auto;
 	}
 
 	.about {
