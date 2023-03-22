@@ -49,7 +49,7 @@ p, a {
 }
 
 .navbar img {
-	margin: 35px;
+	margin: 20px;
 	/* width: 80px;
 	height: 55px; */
 	width: 12vmin;
@@ -91,9 +91,9 @@ p, a {
 .mid {
 	text-align: center;
 	width: 98vw;
-	height: 100vh;
+	height: 120vh;
 	margin: auto;
-	background-image: url(Img/AA.jpg);
+	background-image: url(Img/SIMPLE.png);
 	background-position: center;
 	background-size: cover;
 }
@@ -427,7 +427,8 @@ p, a {
 
 .glider {
 	margin: auto;
-	width: 500px;
+	padding: 0 2.5em 0 0;
+	width: 400px;
 	height: auto;
 	overflow-x: auto;
 	display: flex;
