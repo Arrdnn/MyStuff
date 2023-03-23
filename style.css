@@ -32,8 +32,9 @@ p, a {
 
 .header {
 	top: 0;
-	position: -webkit-sticky;
-	position: sticky;
+	width: 100vw;
+	/* position: -webkit-sticky; */
+	position: fixed;
 	height: auto;
 	background-color: #FFF;
 	z-index: 99999;
@@ -516,10 +517,8 @@ p, a {
 		height: 10vh;
 	}
 
-	.mid .e {
-		font-size: 1em;
-		width: 80vw;
-		margin: auto;
+	.mid {
+		height: 100vh;
 	}
 
 	.about {
