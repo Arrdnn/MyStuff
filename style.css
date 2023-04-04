@@ -21,7 +21,7 @@ h1 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 3em;
 	font-weight: bolder;
-	color: #0F0D35;
+	color: black;
 }
 
 p, a {
@@ -443,7 +443,7 @@ p, a {
 .glider img {
 	background-color: white;
 	height: 550px;
-	border-bottom: 8px solid white;
+	border-bottom: 8px solid black;
 	border-radius: 0 0 10px 10px;
 	-webkit-border-radius: 0 0 10px 10px;
 	-moz-border-radius: 0 0 10px 10px;
@@ -458,20 +458,13 @@ p, a {
 
 .once {
 	width: 90vw;
-	margin: auto;
+	margin: 6em auto;
 	font-weight: bolder;
 	text-align: center;
 }
 
-.once h1 {
-	color: black;
-	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-}
-
 .hafiz {
 	margin: 2.5em auto;
-	/* width: 380px;
-	height: 300px; */
 	width: 90vmin;
 	height: 70vmin;
 	background-image: url(Img/Hafiz4.jpg);
