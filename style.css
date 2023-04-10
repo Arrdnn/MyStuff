@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: #EAEBE7;
+	background-color: #EAEAEA;
 }
 
 div {
@@ -99,17 +99,6 @@ p, a {
 	background-size: cover;
 }
 
-/* .mid img {
-	width: 100vw;
-	height: 100vh;
-} */
-
-/* .e {
-	font-size: 1.5em;
-	margin: 5px auto;
-	text-align: center;
-} */
-
 .top {
 	position: fixed;
 	bottom: 0;
@@ -181,6 +170,30 @@ p, a {
 }
 
 .text p {
+	margin: 20px;
+}
+
+.txt2 {
+	background-color: black;
+	flex: 3;
+	display: flex;
+	animation-duration: 6s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+.text2 {
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.text2 h1 {
+	color: white;
+	margin: 20px;
+}
+
+.text2 p {
+	color: white;
 	margin: 20px;
 }
 
@@ -310,17 +323,21 @@ p, a {
 }
 
 .newtxt {
+	background-color: black;
 	width: 90vw;
+	padding: 1em 0;
 	height: auto;
 	margin: auto;
 }
 
 .newtxt h1 {
 	margin: 20px;
+	color: white;
 }
 
 .newtxt p {
 	margin: 20px;
+	color: white;
 }
 
 .garis {
@@ -508,6 +525,10 @@ p, a {
 
 	.header {
 		height: 10vh;
+	}
+
+	.navbar ul li a {
+		margin-right: 1em;
 	}
 
 	.mid {
