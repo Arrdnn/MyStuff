@@ -450,7 +450,7 @@ p, a {
 
 .glider {
 	margin: auto;
-	padding: 0 2.5em 0 0;
+	/* padding: 0 2.5em 0 0; */
 	width: 60vw;
 	height: auto;
 	overflow-x: auto;
@@ -565,7 +565,8 @@ p, a {
 	}
 
 	.glider {
-		width: 430px;
+		/* width: 430px; */
+		width: 100vw;
 	}
 
 	.glider img {
