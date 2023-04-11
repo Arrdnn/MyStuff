@@ -565,7 +565,11 @@ p, a {
 	}
 
 	.glider {
-		width: 400px;
+		width: 430px;
+	}
+
+	.glider img {
+		height: 500px;
 	}
 
 	.note {
