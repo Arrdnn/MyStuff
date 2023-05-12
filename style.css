@@ -24,7 +24,7 @@ h1 {
 	font-family: 'Alkatra', cursive;
 	font-size: 3em;
 	font-weight: bolder;
-	color: black;
+	color: #171717;
 }
 
 p, a {
@@ -32,7 +32,7 @@ p, a {
 	/* font-family: 'Josefin Sans', sans-serif; */
 	font-family: 'Signika', sans-serif;
 	font-size: 1.5em;
-	color: black;
+	color: #171717;
 }
 
 .header {
@@ -179,7 +179,7 @@ p, a {
 }
 
 .txt2 {
-	background-color: black;
+	background-color: #171717;
 	flex: 3;
 	display: flex;
 	animation-duration: 6s;
@@ -222,7 +222,7 @@ p, a {
 
 .me {
 	width: 200px;
-	border-top: 3px solid black;
+	border-top: 3px solid #171717;
 	text-align: center;
 	font-size: 3em;
 	margin: 3em auto 3em auto;
@@ -270,7 +270,7 @@ p, a {
 	margin: 0 auto;
     padding: 0 0 1em 0;
 	height: auto;
-	background-color: black;
+	background-color: #171717;
 	box-sizing: border-box;
 	text-align: center;
 	border-radius: 0 0 55px 55px;
@@ -330,7 +330,7 @@ p, a {
 }
 
 .newtxt {
-	background-color: black;
+	background-color: #171717;
 	width: 90vw;
 	padding: 1em 0;
 	margin: auto;
@@ -355,21 +355,21 @@ p, a {
 
 .garis1 {
 	height: 10vh;
-	border-top: 4px solid black;
+	border-top: 4px solid #171717;
 }
 
 .garis2 {
 	width: 90vw;
 	height: 10vh;
 	margin: auto;
-	border-top: 4px solid black;
+	border-top: 4px solid #171717;
 }
 
 .garis3 {
 	width: 80vw;
 	height: 10vh;
 	margin: auto;
-	border-top: 4px solid black;
+	border-top: 4px solid #171717;
 }
 
 .abstrak {
@@ -380,7 +380,7 @@ p, a {
 	position: relative;
 	display: flex;
 	background-image: url(Img/gatau\ lah\ 1.jpg);
-	background-color: black;
+	background-color: #171717;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -485,7 +485,7 @@ p, a {
 .glider img {
 	background-color: white;
 	height: 550px;
-	border-bottom: 8px solid black;
+	border-bottom: 8px solid #171717;
 	border-radius: 0 0 10px 10px;
 	-webkit-border-radius: 0 0 10px 10px;
 	-moz-border-radius: 0 0 10px 10px;
